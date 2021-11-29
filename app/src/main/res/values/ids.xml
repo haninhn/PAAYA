@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="descriptLocation" type="id"/>
+    <item name="buttonDec" type="id" />
+    <item name="buttonDescSend" type="id" />
+    <item name="sign_in_button" type="id" />
+</resources>

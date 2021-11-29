@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/upDayteProfile"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/update_profile" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_settings_power_black_24dp"
+            android:title="@string/logout" />
+    </group>
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_chat_black_24dp"
+                android:title="@string/contact_us_for_feedback" />
+            <item
+                android:title="@string/privacy_policy"
+                android:icon="@drawable/ic_library_books_black_24dp">
+
+            </item>
+            <item
+                android:id="@+id/termsAndCondition"
+                android:title="@string/terms_and_conditions"
+                android:icon="@drawable/ic_library_books_black_24dp">
+
+            </item>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_live_help_black_24dp"
+                android:title="@string/help" />
+        </menu>
+    </item>
+    <item android:title="@string/follow_us">
+        <menu >
+            <item
+                android:id="@+id/facebook"
+                android:title="@string/facebook"
+                android:icon="@drawable/ic_menu_send">
+
+            </item>
+            <item
+                android:title="@string/instagram"
+                android:icon="@drawable/ic_menu_send">
+
+            </item>
+            <item
+                android:title="@string/twitter"
+                android:icon="@drawable/ic_menu_send">
+
+            </item>
+            <item
+                android:title="@string/linked"
+                android:icon="@drawable/ic_menu_send">
+
+            </item>
+
+
+
+
+        </menu>
+
+    </item>
+
+
+</menu>

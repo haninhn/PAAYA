@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".splashscreen">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="257dp"
+        android:layout_height="215dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="120dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="@+id/txt1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="0dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="276dp"
+        android:text="@string/paaya"
+        android:textAlignment="center"
+        android:textColor="@color/blue_titre"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="312dp"
+        android:text="@string/help_us_to_help_others"
+        android:textAlignment="center"
+        android:textColor="@color/blue_titre"
+        android:textSize="@dimen/réf20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image" />
+</androidx.constraintlayout.widget.ConstraintLayout>

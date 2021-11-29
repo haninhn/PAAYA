@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="30dp"
+    tools:context=".loginPhoneNumber"
+    android:background="#46FFFFFF"
+    android:transitionName="transition_OTP_screen"
+    android:id="@+id/signup_3rd_screen_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ScrollViewCount">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#46FFFFFF"
+           >
+
+            <TextView
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:textAlignment="center"
+                android:background="#00000000"
+                android:text="@string/paaya"
+                android:textColor="@color/blue_titre"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/butonzar9asafi"
+                android:onClick="cancel"
+                android:text="@string/sign_up_via_phone"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="16sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/mm"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number"
+                android:textColorHint="@color/cardview_light_background"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/cardview_light_background"
+                app:startIconDrawable="@drawable/ic_phone_black_24dp"
+                app:startIconTint="#fff">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:backgroundTint="#444"
+                    android:id="@+id/num"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:background="@drawable/butonzar9asafi"
+                    android:inputType="phone"
+                    android:textColor="#fff"
+                    android:textCursorDrawable="@null" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="10dp"
+                android:onClick="sing"
+                android:text="@string/sign_up"
+                android:textColor="#FFFFFF" />
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#52FFFFFF"
+    android:backgroundTint="#52FFFFFF"
+    android:padding="30dp"
+    tools:context=".login">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="70dp"
+        android:src="@drawable/logo"
+        android:contentDescription="image" />
+
+    <LinearLayout
+        android:layout_width="305dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:background="#52FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:background="#00000000"
+            android:text="PAAYA"
+            android:textColor="@color/blue_titre"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_weight="1"
+            android:background="@drawable/butonzar9asafi"
+            android:drawableRight="@drawable/ic_phone_black_24dp"
+            android:onClick="test1"
+            android:text="@string/sign_up_via_phone"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="14sp"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/butonzar9asafi"
+            android:drawableRight="@drawable/ic_email_black_24dp"
+            android:onClick="signEmail"
+            android:text="@string/sign_up_via_email"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="14sp"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/butonzar9asafi"
+            android:onClick="test1guest"
+            android:text="@string/continue_as_guest"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="14sp"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_marginTop="90dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/blue_button"
+            android:text="@string/view_our_terms_of_service_and_privacy_policy"
+            android:textSize="15sp"/>
+    </LinearLayout>

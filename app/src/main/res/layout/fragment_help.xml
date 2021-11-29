@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#52FFFFFF"
+    android:backgroundTint="#52FFFFFF"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Help">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/purple_700"
+            android:text="@string/how_to_update_profile"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="17sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/blue_button"
+            android:text="@string/how_to_contact_matcher"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="17sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/blue_button"
+            android:text="@string/what_is_hint_question"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="17sp"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:background="@color/blue_button"
+            android:text="@string/how_to_see_matches"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="17sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/blue_button"
+            android:text=" How to post lost/found ?"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="17sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/blue_button"
+            android:text="@string/what_is_reward_for"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="17sp"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="394dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="350dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:background="@color/blue_button"
+            android:text="@string/how_to_change_language"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="17sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/blue_button"
+            android:text="@string/how_to_add_other_categories"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="17sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/blue_button"
+            android:text="@string/how_to_set_location"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="17sp"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".laptop"
+    android:background="#52FFFFFF"
+    android:backgroundTint="#52FFFFFF"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_button"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="8dp"
+            android:text="choose the type of laptop"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <GridView
+        android:id="@+id/gridView3"
+        android:numColumns="3"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

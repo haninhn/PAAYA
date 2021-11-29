@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="test.app.paaya.ui.home.HomeFragment"
+        android:label="  "
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/upDayteProfile"
+        android:name="test.app.paaya.upDayteProfile"
+        android:label="up date profile"
+        tools:layout="@layout/fragment_up_dayte_profile" />
+
+
+    <fragment
+        android:id="@+id/logout"
+        android:name="test.app.paaya.logout"
+        android:label="@string/logout"
+        tools:layout="@layout/fragment_logout" />
+
+    <fragment
+        android:id="@+id/feedback"
+        android:name="test.app.paaya.feedback"
+        android:label="    Feedback"
+        tools:layout="@layout/fragment_feedback" />
+    <fragment
+        android:id="@+id/policy"
+        android:name="test.app.paaya.Policy"
+        android:label="Paaya Privacy Policy"
+        tools:layout="@layout/fragment_policy" />
+    <fragment
+        android:id="@+id/termsAndCondition"
+        android:name="test.app.paaya.TermsAndCondition"
+        android:label="Paaya Terms and condition"
+        tools:layout="@layout/fragment_terms_and_condition" />
+    <fragment
+        android:id="@+id/share"
+        android:name="test.app.paaya.Share"
+        android:label="   Share"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/help"
+        android:name="test.app.paaya.Help"
+        android:label="      Help"
+        tools:layout="@layout/fragment_help" />
+
+
+
+</navigation>

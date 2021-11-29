@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".location"
+    android:background="#52FFFFFF"
+    android:backgroundTint="#52FFFFFF"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/blue_button"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="8dp"
+            android:paddingStart="30dp"
+            android:text="@string/inter_the_location"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="23sp"
+            android:textStyle=""
+            tools:ignore="RtlSymmetry" />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/location"
+        android:layout_height="200dp"
+        android:contentDescription="@string/map" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/locat"
+        android:textSize="18sp"
+        android:textColor="@color/blue_titre"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Describe where you found the object"
+        />
+
+        <EditText
+            android:id="@+id/descriptLocation"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="@dimen/réf20"
+            android:background="@drawable/borderbouttonakira"
+            android:hint="@string/rsto_rue_kairouan"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            android:paddingBottom="60dp"
+            tools:ignore="RtlSymmetry,TextViewEdits"
+            android:autofillHints="" />
+
+        <LinearLayout
+            android:layout_width="401dp"
+            android:layout_height="78dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonDec"
+                android:layout_width="132dp"
+                android:layout_height="63dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="@dimen/réf20"
+                android:onClick="cancel"
+                android:text="@string/cancel"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                tools:ignore="ButtonStyle,OnClick" />
+
+            <Button
+                android:id="@+id/buttonDescSend"
+                android:layout_width="124dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="@dimen/réf20"
+                android:onClick="send"
+                android:text="@string/sendk"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                tools:ignore="ButtonStyle,OnClick" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

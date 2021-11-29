@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="362dp"
+        android:layout_height="3dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="600dp"
+        android:background="#52FFFFFF"
+        android:orientation="vertical"
+       >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="219dp"
+            android:layout_height="198dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/paaya"
+            android:textAlignment="center"
+            android:textColor="@color/blue_button"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:layout_width="198dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="11sp"
+            android:background="@drawable/first"
+            android:onClick="test"
+            android:text="@string/lost_something"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:layout_width="198dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/first"
+            android:onClick="tests"
+            android:text="@string/found_something"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            tools:ignore="OnClick" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/help_us_to_help_others"
+            android:textAlignment="center"
+            android:textColor="@color/blue_titre"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

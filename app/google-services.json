@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "14042818850",
+    "firebase_url": "https://paaya4.firebaseio.com",
+    "project_id": "paaya4",
+    "storage_bucket": "paaya4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14042818850:android:56d1ac27392b8350e79d7b",
+        "android_client_info": {
+          "package_name": "test.app.paaya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14042818850-mdp6l2d29f5iu88c9fmpcvhtakcm91fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsGRZhd4AkBK4X2-K0Gvs04iLg9ZEzzOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14042818850-mdp6l2d29f5iu88c9fmpcvhtakcm91fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".color">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/blue_button"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="8dp"
+            android:paddingStart="@dimen/réf20"
+            android:text="@string/please_select_a_color"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/colorPicker"
+        android:layout_width="370dp"
+        android:layout_height="350dp"
+        android:src="@drawable/colorpicker"
+        android:contentDescription="@string/img" />
+
+        <LinearLayout
+            android:layout_width="344dp"
+            android:layout_height="81dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/borderbouttonakira"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/displayValues"
+                android:layout_width="196dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="20dp"
+                android:text="RGB:  \n Hex: "
+                android:textColor="#000" />
+
+            <View
+                android:id="@+id/displayColor"
+                android:layout_width="129dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="6dp"
+                tools:ignore="RtlSymmetry" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="358dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="339dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="10dp"
+                android:onClick="next"
+                android:text="Next"
+                android:textSize="18sp"
+                tools:ignore="OnClick" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
